@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <p>Let Ostric Know Who You Are</p>
+    <form action="Profile.html" method="POST">
+        <table>
+            <tr>
+                <td><label for="username">* Nama</label></td>
+                <td><input type="text" name="username" placeholder="Enter Your Name" id=""></td>
+            </tr>
+            <tr>
+                <td><label for="email">* Email</label></td>
+                <td><input type="email" name="email" placeholder="Enter Your Email" id=""></td>
+            </tr>
+            <tr>
+                <td><label for="age">* Age</label></td>
+                <td><input type="number" name="age" placeholder="Age" id=""></td>
+            </tr>
+            <tr>
+                <td><label for="role">Role :</label></td>
+                <td>
+                    <select name="role" id="role">
+                        <option value="learner">Learner</option>
+                        <option value="employee">Employee</option>
+                        <option value="enterpreneur">Enterpreneur</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="generation">Ostric Generation : </label></td>
+                <td>
+                    <input type="radio" name="generation" id="2018" value="2018">
+                    <label for="2018">2018</label> <br>
+                    <input type="radio" name="generation" id="2019" value="2019">
+                    <label for="2019">2019</label> <br>
+                    <input type="radio" name="generation" id="other" value="other">
+                    <label for="other">Other</label> <br>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="interest">Interested in what area</label> </td>
+                <td>
+                    <input type="checkbox" name="interest1" id="interest1" value="Front-end">
+                    <label for="interest1">Front-end</label><br>
+                    <input type="checkbox" name="interest2" id="interest2" value="Back-end">
+                    <label for="interest2">Back-end</label><br>
+                    <input type="checkbox" name="interest3" id="interest3" value="Data Visualization">
+                    <label for="interest3">Data Visualization</label><br>
+                </td>
+            </tr>            
+        </table>
+        <td><input type="submit" value="Submit"></td>
+        <br><br>
+        <td><a href="Profile.html">Back to Home</a></td>
+    </form>
+</body>
+</html>
